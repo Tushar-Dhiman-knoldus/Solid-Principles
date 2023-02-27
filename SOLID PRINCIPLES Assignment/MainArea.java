@@ -48,11 +48,12 @@ class Rectangle{
 
     public static void main(String...s){
 
-        
+        // Creating the Objects.
         Rectangle rec_obj = new Rectangle();
         Square square_obj = new Square();
         Scanner input_object = new Scanner(System.in);
-
+        
+        // Taking height and width as input for calculating area of rectangle. 
         System.out.println("Enter the height and width of the rectangle to find it's area");
 
         int height = input_object.nextInt();
@@ -62,6 +63,7 @@ class Rectangle{
         rec_obj.setHeight(height);
         rec_obj.setWidth(width);    
         
+        // Taking side as input for calculating area of square.
         System.out.println("Enter the side of the square");
 
         int side = input_object.nextInt();
